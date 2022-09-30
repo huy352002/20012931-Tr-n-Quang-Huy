@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    background-image: url(/backgroun.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.header ul {
+    position: absolute;
+}
+
+.header ul li {
+    display: inline-block;
+    padding: 10px 10px;
+    background-color: blueviolet;
+    /* position: absolute; */
+    right: 0;
+    top: 0;
+}

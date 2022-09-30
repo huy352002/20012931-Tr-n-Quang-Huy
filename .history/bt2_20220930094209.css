@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    background-image: url(/backgroun.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
