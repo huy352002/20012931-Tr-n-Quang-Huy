@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 280px;
+    width: 100%;
+    background-color: aqua;
+    position: relative;
+}
+
+.header H1 {
+    text-align: center;
+    color: red;
+    padding: 10px;
+}
+
+img {
+    height: 250px;
+    width: 350px;
+    position: absolute;
+    top: 0;
+}
+
+.menu {
+    position: absolute;
+    /* top: 78%; */
+    right: 0%;
+    bottom: 0%;
+    padding: 0 50px;
+}
+
+.menu li {
+    display: inline-block;
+    background-color: blue;
+    /* padding: 10px 20px; */
+    padding: 20px 10px;
+}
+
+.menu li a {
+    color: azure;
+    font-size: large;
+    text-decoration: none;
+    padding: 20px 50px;
+}
+
+.header input {
+    border-radius: 10px;
+    height: 30px;
+}
+
+.header .submit {
+    position: absolute;
+    top: 0%;
+    right: 0;
+    margin: 20px 20px;
+}
+
+.body {
+    height: auto;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    background-color: bisque;
+}
+
+.body .container_1 {
+    height: inherit;
+    width: 61.5%;
+    /* background-color: white; */
+    display: inline-block;
+    padding: 0 60px;
+    position: relative;
+}
+
+.H_1 {
+    padding: 30px 0;
+    border-bottom: 5px dotted black;
+}
+
+.p1 {
+    margin: 10px 0;
+    text-shadow: 5px 5px 8px rgb(0, 255, 64);
+    color: red;
+}
+
+.text {
+    height: auto;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+.text_1 {
+    height: auto;
+    width: 54%;
+    /* position: relative; */
+    display: inline-block;
+}
+
+.text_1 .form {
+    height: auto;
+    width: 100%;
+    display: inline-block;
+    /* position: absolute; */
+}
+
+.text_1 .form_a {
+    height: auto;
+    width: 50%;
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.text_1 .form_b {
+    height: auto;
+    width: 49%;
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.Message {
+    width: 77%;
+    height: 111px;
+    padding: 12px 20px;
+    border-radius: 4px
+}
+
+.submit {
+    /* padding: 15px 15px; */
+    margin: 10px 0;
+}
+
+.submit_a {
+    padding: 3px 10px;
+    margin-right: 10px;
+}
+
+.submit_b {
+    padding: 3px 10px;
+}
+
+.text_2 {
+    position: absolute;
+    height: auto;
+    width: 35%;
+    display: inline-block;
+    padding: 10px 37px;
+    top: 0;
+}
+
+.text_2 p {
+    padding: 10px 0;
+}
+
+.body .container_2 {
+    height: auto;
+    width: 25%;
+    background-color: silver;
+    display: inline-block;
+    position: absolute;
+    margin: 40px 10px;
+    padding: 10px 20px;
+    /* top: 50px; */
+}
+
+.container_2 .img_2 {
+    margin: 20px 30px;
+    height: 150px;
+    border: 5px solid white;
+    width: 300px;
+    position: relative;
+}
+
+.footer {
+    width: 96.5%;
+    height: 50px;
+    padding: 20px 0 0 50px;
+    background-color: blue;
+    color: white;
+    position: relative;
+}
+
+span {
+    color: red;
+}
